@@ -9,7 +9,9 @@
           content="width=device-width, initial-scale=1.0">
 
     <title>Ankush Sihag | Full Stack Developer</title>
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -21,29 +23,28 @@
         <nav class="navbar">
 
             <h2 class="logo">
-                Ankush
+                Ankush Sihag
             </h2>
-
             <ul class="nav-links">
 
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                 </li>
 
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
 
                 <li>
-                    <a href="#">Skills</a>
+                    <a href="#skills">Skills</a>
                 </li>
 
                 <li>
-                    <a href="#">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
 
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
 
             </ul>
@@ -54,7 +55,7 @@
 
     <main>
 
-        <section class="hero">
+        <section id="home" class="hero">
 
             <div class="hero-content">
                 <p class="greeting">
@@ -70,8 +71,8 @@
                 </h2>
 
                 <p class="hero-description">
-                    I build scalable web application using JavaScript,
-                    Node.js, Express, MongoDB and React.
+                   I build modern, scalable web applications using JavaScript, Node.js, Express, MongoDB, and React.
+                   I'm passionate about creating clean, user-friendly, and efficient web experiences.
                 </p>
 
                 <button class="btn-primary">
@@ -94,10 +95,171 @@
 
         </section>
 
+        <section id="about" class="about">
+
+            <div class="about-image">
+                <img src="images/image.jpg"
+                     alt="Ankush Sihag">
+            </div>
+
+            <article class="about-content">
+
+                <h2>About Me</h2>
+
+                <p>
+                    Hello! I'm Ankush Sihag,
+                    a passionate Full Stack JavaScript Developer
+                    who enjoys building modern web applications
+                    and continuously learning new technologies.
+                </p>
+
+                <p>
+                    Currently I'm improving my skills in
+                    HTML, CSS, JavaScript, React,
+                    Node.js, Express and MongoDB.
+                </p>
+
+                <p>
+                    My goal is to become a skilled Full Stack Developer
+                    and work on real-world products while continuously
+                    learning new technologies.
+                </p>
+
+            </article>
+
+        </section>
+
+        <section id="skills" class="skills">
+
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-node-js"></i>
+                    <h3>Node.js</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Express.js</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-leaf"></i>
+                    <h3>MongoDB</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>MySQL</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h3>Git</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="projects" class="projects">
+
+            <h2>My Projects</h2>
+
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>E-Commerce Backend</h3>
+                    <p>
+                        A complete backend application built using
+                        Node.js, Express.js and MongoDB.
+                    </p>
+                    <a href="https://github.com/ankush-sihag/Ecommerce-Project">GitHub</a>               
+                 </div>
+
+                 <div class="project-card">
+                    <h3>Wearther App</h3>
+                    <p>
+                        A weather application using HTML, CSS,
+                        JavaScript and Weather API.
+                    </p>
+                    <a href="https://github.com/ankush-sihag/GLOBAL-WEATHER-APP">GitHub</a>
+                 </div>
+
+                 <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        My personal portfolio built using
+                        HTML, CSS and JavaScript.
+                    </p>
+                    <a href="https://github.com/ankush-sihag/JS-Frontend">GitHub</a>
+                 </div>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Lets build something amazing together.</p>
+            <form class="contact-form">
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    required>
+
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                    required>
+
+                <textarea
+                    rows="6"
+                    placeholder="Your Message"
+                    required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
     </main>
 
     <script src="js/script.js"></script>
 
 </body>
+
+<footer>
+
+    <p>
+        © 2026 Ankush Sihag.
+        All Rights Reserved.
+    </p>
+
+</footer>
 
 </html>
